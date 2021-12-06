@@ -4,7 +4,7 @@ const NossosParceiros = () => {
     return (
         <div class="NossosParceiros">
             <p class="subtitle">
-                "Marcas que apoiam nossos projeto."
+                "Marcas que apoiam nossos projeto"
             </p>
             <div class= "logos">
                 <img src='' alt="logo da Novo Jeito"/>
