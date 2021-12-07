@@ -11,13 +11,14 @@ import {ReactComponent as SetaSVG} from '../../assets/seta.svg'
 export const Donate = () => {
     const [text, setText] = useState('');
     const [image, setImage] = useState('');
+    const [pix, setPix] = useState('');
 
     const getInfos = async () => {
       const res = await axios.get(`${mainUrl}/deseja-nos-ajudars`);
-      const { descricao, imagem } = res.data[0];
-      console.log(res)
+      const { descricao, imagem, pix } = res.data[0];
       setText(descricao);
-      setImage(imagem.url)
+      setImage(imagem[0].url)
+      setPix(pix);
     };
       useEffect(() => {
         getInfos();
@@ -37,7 +38,7 @@ export const Donate = () => {
             <SetaSVG className='seta'/>
             </button>
 
-        <p className='pix'> PIX: 0000000000</p>
+        <p className='pix'> PIX: {pix}</p>
                     
                 </div>
             </div>
