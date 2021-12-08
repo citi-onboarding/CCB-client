@@ -1,22 +1,43 @@
-import React from 'react'
 
-const NossosParceiros = () => {
-    return (
-        <div class="NossosParceiros">
-            <p class="subtitle">
-                "Marcas que apoiam nossos projeto"
-            </p>
-            <div class= "logos">
-                <img src='' alt="logo da Novo Jeito"/>
-                <img src='' alt="logo da Transforma Brasil"/>
-                <img src='' alt="logo da Transforma Recife"/>
-                <img src='' alt="logo da RD"/>
-                <img src='' alt="logo da Creative Studio"/>
-                <img src='' alt="logo da Neoenergia"/>
-                <img src='' alt="logo da Lima Bezerra"/>
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { mainUrl } from '../../assets/index.ts';
+import "./style.css"
+export const NossosParceiros = () => {
+    const [text, setText] = useState('');
+    const [image, setImage] = useState([{ url: ''}]);
+    
+
+    const getInfos = async () => {
+      const res = await axios.get(`${mainUrl}/nossos-parceiros`);
+      const { Imagens, Subtitulo  } = res.data[0];
+      console.log(res.data)
+      setText(Subtitulo);
+      setImage(Imagens)
+      
+    };
+      useEffect(() => {
+        getInfos();
+      }, []);
+
+
+        return (
+            <div class="NossosParceiros">
+                <div class="title">
+                    Nossos Parceiros
+                </div>
+                <p className="subtitle">
+                    {text}
+                </p>
+                <div class= "logos">
+                    {image.map((value) => (
+                        <div className="fotos">
+                            <img src={value.url} alt="" />
+                        </div>
+                    ) )}
+                </div>
             </div>
-        </div>
-  )
+        )
     }
   
   export default NossosParceiros;
