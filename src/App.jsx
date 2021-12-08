@@ -8,7 +8,6 @@ import Carousel from './Views/Projetos/carousel';
 const App = () => {
   return (
     <div className="App">
-
       <Carousel/>
 
     </div>
