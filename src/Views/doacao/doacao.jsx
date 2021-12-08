@@ -15,6 +15,7 @@ export const Donate = () => {
 
     const getInfos = async () => {
       const res = await axios.get(`${mainUrl}/deseja-nos-ajudars`);
+      console.log(res)
       const { descricao, imagem, pix } = res.data[0];
       setText(descricao);
       setImage(imagem[0].url)
