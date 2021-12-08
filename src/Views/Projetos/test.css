@@ -1,0 +1,64 @@
+.divC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+  
+  }
+  
+  #footer{
+    height: 400px;
+  }
+  
+  .slick-prev {
+  }
+  .slick-next {
+    margin-left: 10px!important;
+    
+  }
+  .slick-prev:before {
+    content: url('../../assets/right-arrow.svg')!important; 
+    content: url('../../assets/inside-left-arrow.svg')!important;
+    
+  }
+  
+  .slick-next:before {
+    content: url('../../assets/left-arrow.svg')!important;
+    content: url('../../assets/inside-right-arrow.svg')!important;
+    max-width: 10px;
+  }
+  
+  .cardC{
+    background-color:#FFFFFF;;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 5.95px 5.95px 2.6px;
+    border: white 2.5px solid;
+    width: 100px;
+    height: 500px;
+    background-color: aqua;
+    margin-left: 10px !important;
+  }
+  .imgC{
+    width: auto;
+    height: 200px;
+    margin: 20px;
+  }
+  .pC {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .h1C{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+  }
