@@ -4,15 +4,15 @@ import NossosParceiros from './Views/Nossos Parceiros/NossosParceiros';
 import Carousel from './Views/Projetos/carousel';
 import Campanha from './Views/Campanha';
 import Donate from './Views/doacao/doacao';
+import NossaMissao from './Views/NossaMissao/index'
 
 const App = () => {
   return (
     <div className="App">
-      <Campanha/>
-      <Donate/>
       <Carousel/>
-      <NossosParceiros/>
-      
+      <Campanha/>
+      <NossaMissao/>
+      <Donate/>
       
   </div>
 )

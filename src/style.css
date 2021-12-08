@@ -1,4 +1,6 @@
-
+*{
+  margin: 0;
+}
 
 div {
   width: 100%;
@@ -11,7 +13,6 @@ div {
 
 h1 {
   font-size: 54px;
-  color: white;
   margin-top: 40px;
   text-align: center;
 

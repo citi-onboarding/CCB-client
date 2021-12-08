@@ -1,2 +1,2 @@
-import { NossaMissao } from "./NossaMissao"
+import  {NossaMissao}  from "./NossaMissao"
 export default NossaMissao
