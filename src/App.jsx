@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 import NossosParceiros from './Views/Nossos Parceiros/NossosParceiros';
-import {Campanha} from './Views/Campanha/Campanha';
-import {Donate} from './Views/doacao/doacao';
+import Campanha from './Views/Campanha/Campanha';
+import Donate from './Views/doacao/doacao';
 
 const App = () => {
   return (

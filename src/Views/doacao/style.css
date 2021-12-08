@@ -1,5 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: Montserrat;
 
+}
 .container{
     position: relative;
     width: 100%;
@@ -9,7 +13,6 @@
     align-items: center;
     position: relative;
     display: flex;
-    font-family: Montserrat;
 
 }
 
@@ -52,6 +55,7 @@
     height: 62px;
     margin-top: 25px;
     z-index: 1;
+    font-family: Montserrat;
     font-size: 20px;
 }
 .pix{
@@ -63,6 +67,7 @@
     line-height: 27px;
     color: #fff;
     z-index: 1;
+    font-family: Montserrat;
     margin-top: 50px;
 
 }
@@ -73,6 +78,7 @@
     line-height: 39px;
     text-align: center;
     width: 319px;
+    font-family: Montserrat;
     z-index: 1;
     height: 39px;
 
@@ -84,6 +90,7 @@
     text-align: center;
     color: #FFFFFF;
     width: 686px;
+    font-family: Montserrat;
     height: 54px;
     z-index: 1;
 
