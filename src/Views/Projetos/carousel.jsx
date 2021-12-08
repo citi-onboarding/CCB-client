@@ -12,7 +12,7 @@ const Carousel = () => {
   const [slickPhotos, setSlickPhotos] = useState([{ url: '', caption: '', name: '' }]);
   
     const getInfos = async () => {
-    
+
     const res = await axios.get(`${mainUrl}/carrossel-projetos`);
     console.log(res)
     const { images } = res.data[0];
@@ -23,16 +23,17 @@ const Carousel = () => {
       }, []);
   
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1
     }
 
 
     return (
         <div className='divCarousel' id='footer'>
+          <h1 id='h1'>Projetos</h1>
             <Slider {...settings}>
               {slickPhotos?.map((value) => (
                 <div
