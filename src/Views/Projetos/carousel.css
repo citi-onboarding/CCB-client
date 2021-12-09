@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.divCarousel{
+  max-width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  margin-top: 300px;
+}
+
+.cardC .slick-slide{
+  margin: 10px ;
+}
+#footer{
+  height: 400px;
+}
+
+.slick-prev {
+  display: flex;
+}
+.slick-next {
+  
+}
+.slick-prev:before {
+  content: url('../../assets/right-arrow.svg')!important; 
+  content: url('../../assets/inside-left-arrow.svg')!important;
+  
+}
+
+.slick-next:before {
+  content: url('../../assets/left-arrow.svg')!important;
+  content: url('../../assets/inside-right-arrow.svg')!important;
+}
+
+.cardC{
+  
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 5.95px 5.95px 2.6px;
+  border: white 2.5px solid;
+  width: 300px !important;
+  height: 500px !important;
+
+}
+.cardC img{
+  border-radius: 10px;
+}
+.imgC{
+  width: 300px;
+  max-width: fit-content;
+  height: 200px;
+  min-width: 300px;
+}
+.pC {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 24px;
+  color: #000000;
+}
+#h1c{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: -100px;
+ 
+}
+.h1C {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+text-align: center;
+margin-top: 40px;
+}
