@@ -24,7 +24,7 @@ export const NossaMissao = () => {
 
     return(
             
-        <div className = "containerMissao">
+        <div className = "containerMissao" id='missaolink'>
             
             <div className = "infosMissao">
                 <h2 className = "tituloMissao">Nossa Missão</h2>

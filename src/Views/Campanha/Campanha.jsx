@@ -23,7 +23,7 @@ export const Campanha = () => {
 
     return(
             
-        <div className = "containerCampanha">
+        <div className = "containerCampanha" id='campanhalink'>
             
             <div className = "infosCampanha">
                 <h2 className = "tituloCampanha">Campanha</h2>
