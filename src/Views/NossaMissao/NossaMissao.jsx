@@ -24,13 +24,13 @@ export const NossaMissao = () => {
 
     return(
             
-        <div className = "container">
+        <div className = "containerMissao">
             
-            <div className = "infos">
-                <h2 className = "titulo">Nossa Missão</h2>
-                <p className = "subtitulo">{text}</p>
+            <div className = "infosMissao">
+                <h2 className = "tituloMissao">Nossa Missão</h2>
+                <p className = "subtituloMissao">{text}</p>
             </div>
-                <img src={image} alt="foto de crianças e instrutores" className = "img"/>
+                <img src={image} alt="foto de crianças e instrutores" className = "imgMissao"/>
         </div>
             
       

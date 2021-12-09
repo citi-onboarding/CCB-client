@@ -9,7 +9,9 @@
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
+  margin-top: 100px;
 }
+
 .cardC .slick-slide{
   margin: 10px ;
 }
@@ -42,6 +44,7 @@
   border: white 2.5px solid;
   width: 300px !important;
   height: 500px !important;
+
 }
 .cardC img{
   border-radius: 10px;
@@ -59,7 +62,7 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  
+  margin-top: 24px;
   color: #000000;
 }
 #h1{
@@ -71,6 +74,7 @@
   text-align: center;
   color: #000000;
   margin-bottom: -100px;
+ 
 }
 .h1C {
 font-family: Montserrat;
@@ -80,4 +84,5 @@ font-size: 20px;
 line-height: 24px;
 color: #000000;
 text-align: center;
+margin-top: 40px;
 }
