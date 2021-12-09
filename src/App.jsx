@@ -9,8 +9,9 @@ import NossaMissao from './Views/NossaMissao/index'
 const App = () => {
   return (
     <div className="App">
-      <Campanha/>
+      <NossaMissao/>
       <Carousel/>
+      <Campanha/>
       <Donate/>
 
   </div>

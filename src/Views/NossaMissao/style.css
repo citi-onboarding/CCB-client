@@ -4,53 +4,61 @@
     margin: 0px;
 }
 
-.container {  
-    
+.containerMissao {  
     height: 100vh;
     background-color:#F4F4F4;
     padding-top: 117px;
     
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 2100px;
     
 }
 
-.infos {
+.infosMissao {
     
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     
 }
 
-.titulo {
+.tituloMissao {
     
-    margin: 5% 5% 1% 10%;
+    /*argin: 5% 62% 1% 10%;*/
+    
+    
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
+    margin: 50px;
     
 }
 
-.subtitulo {
+.subtituloMissao {
     
-    margin: 5% 5% 1% 10%;
+    
     text-align: left;
-   
+    padding-right: 5%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 25px;
-    color: #000000 !important;
+    color: #000000;
+    margin-left: 50px;
+    
 }
 
-.img {
+.imgMissao {
     
-    flex-grow: 1;
     margin: 5% 5% 1% 5%;
-    width:50%;
+    width:40%;
     border-radius: 10px;
+    
 }
