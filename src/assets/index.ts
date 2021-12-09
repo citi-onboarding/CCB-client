@@ -1,1 +1,1 @@
-export const mainUrl = 'http://localhost:1337'
+export const mainUrl = 'https://ccb-server.herokuapp.com'
