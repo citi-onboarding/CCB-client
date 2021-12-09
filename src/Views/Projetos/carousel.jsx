@@ -33,7 +33,7 @@ const Carousel = () => {
 
     return (
         <div className='divCarousel' id='footer'>
-          <h1 id='h1'>Projetos</h1>
+          <h1 id='h1c'>Projetos</h1>
             <Slider {...settings}>
               {slickPhotos?.map((value) => (
                 <div
