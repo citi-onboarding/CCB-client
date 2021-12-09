@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+.spacing{
+    padding: 100px;
+}
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding-bottom: 300px;
+    position: static;
+    position: absolute;
+    height: 100vh;
+}
+header {
+    display:flex;
+    flex-direction: row;
+}
+.Navbar a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 350px;
+}
+
+.home {
+    padding-top: 30px;
+    padding-left:200px;
+    
+}
+
+.quem_somos {
+    padding-top: 30px;
+    width: 108px;
+    padding-left:30px;
+    width: 100%;
+}
+
+.missao {
+    padding-top: 30px;
+    padding-left:30px;
+}
+
+.projetos {
+    padding-top: 30px;
+    padding-left:30px;
+}
+
+.campanha {
+    padding-top: 30px;
+    padding-left:30px;
+}   
+
+.contato {
+    padding-top: 30px;
+    padding-left:30px;
+    padding-right: 55px;
+}
+
+.doar {
+    padding-top: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-left:43px;
+}
+
+.button_navbar {
+    width: 111px;
+    height: 54px;
+    left: 1225px;
+    top: 31px;
+    background: #0849D8;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.img_nabavr {
+    margin-bottom: 375px;
+}
+
+
