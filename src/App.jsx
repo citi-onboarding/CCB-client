@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div className="App">
       <NavBar></NavBar>   
-      <Donate/>
       <Rodape></Rodape>  
   </div>
 )
