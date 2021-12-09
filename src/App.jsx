@@ -1,25 +1,23 @@
 import React from 'react';
-import { Logo } from '../src/assets'
 import './style.css';
+import NossosParceiros from './Views/Nossos Parceiros/NossosParceiros';
+import Carousel from './Views/Projetos/carousel';
+import Campanha from './Views/Campanha';
+import Donate from './Views/doacao/doacao';
+import NossaMissao from './Views/NossaMissao/index'
+import NavBar from './Views/NavBar';
+import Rodape from './Views/Rodape';
 
 const App = () => {
   return (
     <div className="App">
+      <NavBar/>
+      <NossaMissao/>
+      <Carousel/>
+      <Campanha/>
+      <Donate/>
+      <Rodape/>
 
-      <img src={Logo} alt="" />
-      <p>
-        Made with
-        {' '}
-        <strong>&lt; &#x0002F; &gt;</strong>
-        {' '}
-        and
-        {' '}
-        atualizado
-        {''}
-        <strong>&hearts;</strong>
-        {' '}
-        by CITi
-      </p>
   </div>
 )
   }
