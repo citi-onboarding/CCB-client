@@ -24,7 +24,7 @@ export const NossosParceiros = () => {
         return (
             <div class="NossosParceiros">
                 <div class="title">
-                    Nossos Parceiros
+                    Nossos parceiros
                 </div>
                 <p className="subtitle">
                     {text}
