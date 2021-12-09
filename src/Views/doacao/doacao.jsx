@@ -31,8 +31,8 @@ export const Donate = () => {
                 <div className='card'>
                 < IconSVG className='svg'/>
                 <img src={image} className='image'/>
-                    <h1>Deseja nos ajudar?</h1>
-                    <p>{text}</p>
+                    <h1 className='title'>Deseja nos ajudar?</h1>
+                    <p className='text'>{text}</p>
                     
         <button type="button" className='doacao'><a href='https://escolacriarerecriar.com/ccb_donate' className='link'>            
             Faça uma doação</a>
