@@ -4,91 +4,107 @@
         margin: 0px;
     }
     
-.container{
-        position: relative;
+    /*Imagem e fundo do Banner*/
+
+    .containerBanner{
         width: 100%;
         height: 100vh;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+        text-align: left;
+        justify-content:left;
+        align-items: left;
         display: flex;
-        font-family: Montserrat;
-    
     }
     
-    .seta{
-        margin-left: 10px;
+    .cardBanner{
+        background: linear-gradient(90deg, rgba(2, 116, 225, 0.8) 10%, rgba(255, 255, 255, 0) 100%);;  
     }
-    .card{
-        background-color: rgba(0, 0, 0, 0.55) ;   
-    }
-    .image {
-        opacity: 0.2;
-        position: absolute;
+
+    .imageBanner{
+        opacity: 50%;
+        position:absolute;
         top: 0;
         left: 0;
         height: 100vh;
         width: 100%;
         z-index: 0;
-    }   
+    } 
     
-    .svg{
+    /*Título e subtítulo do Banner*/
+    
+    .infos {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+
+    .titulo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: left;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        padding-left: 108px;
+        
+        width: 498px;
+        height: 98px;
+        left: 108px;
+        top: 294px;
+
         z-index: 1;
     }
-    
-    .container p, h1{
+
+    .subtitulo {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        padding-left: 108px;
+
+        width: 377px;
+        height: 40px;
+        left: 108px;
+        top: 422px;
+        
         z-index: 1;
-        color: #fff;
     }
-        .link{
-            text-decoration: none;
-            color: #FFFFFF;
-        }
-    .doacao{
+
+    /*Botão do Banner*/
+
+    .setaBanner{
+        margin-left: 10px;
+        
+    }
+
+    .link{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .doacaoBanner{
         display: flex;
         align-items: center;
         justify-content: center;
         background: #FDB600;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
-        width: 307px;
+        width: 152px;
         height: 62px;
         margin-top: 25px;
         z-index: 1;
         font-size: 20px;
+
+        
+
+        
     }
-    .pix{
-        text-align: center;
-        width: 254px;
-        height: 27px;
-        font-weight: bold;
-        font-style: normal;
-        line-height: 27px;
-        color: #fff;
-        z-index: 1;
-        margin-top: 50px;
     
-    }
-    .title{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 39px;
-        text-align: center;
-        width: 319px;
-        z-index: 1;
-        height: 39px;
-    
-    }
-    .text{
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 27px;
-        text-align: center;
-        color: #FFFFFF;
-        width: 686px;
-        height: 54px;
-        z-index: 1;
-    
-    }
+

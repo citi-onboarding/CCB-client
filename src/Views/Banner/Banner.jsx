@@ -1,5 +1,3 @@
-import foto from '../../assets/foto.jpeg'
-import {ReactComponent as IconSVG} from '../../assets/a.svg'
 import './style.css'
 import {mainUrl} from '../../assets/index'
 import React, { useEffect, useState } from 'react';
@@ -8,17 +6,16 @@ import {ReactComponent as SetaSVG} from '../../assets/seta.svg'
 
 
 
-export const Donate = () => {
+export const Banner = () => {
     const [text, setText] = useState('');
     const [image, setImage] = useState('');
-    const [pix, setPix] = useState('');
 
     const getInfos = async () => {
-      const res = await axios.get(`${mainUrl}/deseja-nos-ajudars`);
-      const { descricao, imagem, pix } = res.data[0];
-      setText(descricao);
-      setImage(imagem[0].url)
-      setPix(pix);
+      const res = await axios.get(`${mainUrl}/banners`);
+      console.log(res)
+      const { BannerSubtitle, BannerImage} = res.data[0];
+      setText(BannerSubtitle);
+      setImage(BannerImage.url)
     };
       useEffect(() => {
         getInfos();
@@ -26,22 +23,21 @@ export const Donate = () => {
 
     
         return(
-           <div className='container'>
-                <div className='card'>
-                < IconSVG className='svg'/>
-                <img src={image} className='image'/>
-                    <h1>Deseja nos ajudar?</h1>
-                    <p>{text}</p>
-                    
-        <button type="button" className='doacao'><a href='https://escolacriarerecriar.com/ccb_donate' className='link'>            
-            Faça uma doação</a>
-            <SetaSVG className='seta'/>
-            </button>
+           <div className='containerBanner'>
+                <div className='cardBanner'>
+                    <img src={image} className='imageBanner'/>
+                    <div className='infos'>
+                        <h1 className = 'titulo'>Casa da Comunidade do Berardo (CCB Social)</h1>
+                        <p className ='subtitulo'>{text}</p>
+                        <button type="button" className='doacaoBanner'>
+                        <a href='https://escolacriarerecriar.com/ccb_donate' className='link'> Doe</a>
+                        <SetaSVG className='setaBanner'/></button>
+                    </div>
+                   
 
-        <p className='pix'> PIX: {pix}</p>
                     
-                </div>
+                  </div>
             </div>
         )
     }
-    export default Donate;
+    export default Banner;
