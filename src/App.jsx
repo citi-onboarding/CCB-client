@@ -7,16 +7,12 @@ import Donate from './Views/doacao/doacao';
 import NossaMissao from './Views/NossaMissao/index'
 import NavBar from './Views/NavBar';
 import Rodape from './Views/Rodape';
+import Contact from './Views/contato/contato';
 
 const App = () => {
   return (
     <div className="App">
-      <NavBar/>
-      <NossaMissao/>
-      <Carousel/>
-      <Campanha/>
-      <Donate/>
-      <Rodape/>
+      <Contact/>
 
   </div>
 )
