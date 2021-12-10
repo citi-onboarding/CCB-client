@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    
+}
+
+.footer_bottom {
+    height: 40px;
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 25px;
+    flex-direction: row;
+}
+
+.footer_bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+
+.footer_bottom span{
+    opacity: .4;
+    font-weight: 200;
+}
+
+.made_citi {
+    padding-left: 700px;
+
+}
+
+.logo_citi_rodape {
+    width: 30px;
+    padding-top: 22px;
+    padding-left: 9px;
+}
+

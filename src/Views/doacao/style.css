@@ -1,0 +1,116 @@
+*{
+    font-family: Montserrat;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: Montserrat;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: 50px;
+    
+
+}
+
+.seta{
+    margin-left: 10px;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.55);   
+
+}
+.card img{
+    width: 100%;
+}
+
+.image {
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+    width: 100%;
+    height: 100%; 
+
+    
+}   
+
+.svg{
+    z-index: 1;
+}
+
+.container p, h1{
+    z-index: 1;
+    color: #fff;
+}
+    .link{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+.doacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDB600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 307px;
+    height: 62px;
+    margin-top: 25px;
+    z-index: 1;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.pix{
+    text-align: center;
+    width: 254px;
+    height: 27px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 27px;
+    color: #fff;
+    z-index: 1;
+    font-family: Montserrat;
+    margin-top: 50px;
+    font-size: 22px;
+
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 319px;
+    font-family: Montserrat;
+    z-index: 1;
+    height: 39px;
+    margin-top: 20px;
+
+}
+.text{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 686px;
+    font-family: Montserrat;
+    height: 54px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    z-index: 1;
+
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+.spacing{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    align-items: center;
+}
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    height: 75px;
+    background-color: white;
+    z-index: 100;
+
+}
+.Navbar a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.doar {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.button_navbar {
+    width: 111px;
+    height: 54px;
+    left: 1225px;
+    top: 31px;
+    background: #0849D8;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
