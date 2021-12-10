@@ -31,13 +31,13 @@
     
     /*Título e subtítulo do Banner*/
     
-    .infos {
+    .infosBanner {
         display: flex;
         align-items: flex-start;
         
     }
 
-    .titulo {
+    .tituloBanner {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: bold;
@@ -57,7 +57,7 @@
         z-index: 1;
     }
 
-    .subtitulo {
+    .subtituloBanner {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: bold;
@@ -84,7 +84,7 @@
         
     }
 
-    .link{
+    .linkBanner{
         text-decoration: none;
         color: #FFFFFF;
         

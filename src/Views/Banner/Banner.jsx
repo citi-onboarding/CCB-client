@@ -16,33 +16,25 @@ export const Banner = () => {
       const { BannerSubtitle, BannerImage} = res.data[0];
       setText(BannerSubtitle);
       setImage(BannerImage.url)
-
-      function mudarFoto() {
-        setImage(image[1]);
-      }
-   };
+    };
       useEffect(() => {
         getInfos();
       }, []);
 
+    
         return(
            <div className='containerBanner'>
                 <div className='cardBanner'>
                     <img src={image} className='imageBanner'/>
-                    
-                    <button onClick='mudarFoto'>mudar foto</button>
-                    
-                    <div className='infos'>
-                        <h1 className = 'titulo'>Casa da Comunidade do Berardo (CCB Social)</h1>
-                        <p className ='subtitulo'>{text}</p>
+                    <div className='infosBanner'>
+                        <h1 className = 'tituloBanner'>Casa da Comunidade do Berardo (CCB Social)</h1>
+                        <p className ='subtituloBanner'>{text}</p>
                         <button type="button" className='doacaoBanner'>
-                        <a href='https://escolacriarerecriar.com/ccb_donate' className='link'> Doe</a>
+                        <a href='https://escolacriarerecriar.com/ccb_donate' className='linkBanner'> Doe</a>
                         <SetaSVG className='setaBanner'/></button>
                     </div>
                   </div>
             </div>
         )
     }
-    
-    
-export default Banner;
+    export default Banner;
