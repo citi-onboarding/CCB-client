@@ -28,26 +28,14 @@ const Somos = () => {
       dots: false,
       infinite: true,
       speed: 900,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1
     }
 
 
     return (
         <div className='divCarousel' id='footer'>
-          <h1 id='h1'>Projetos</h1>
-            <Slider {...settings}>
-              {fotos.map((value) => (
-                <div
-                  className='cardC'
-                  key={value.url}
-                >
-                  <img src={value.url} alt="" className='imgC'/>
-                  <h1 className='h1C'>{subtitle}</h1>
-                  <p className='pC'>{value.caption}</p>
-                </div>
-              ))}
-            </Slider>
+          <fotos/>
         </div>
     );
   };
