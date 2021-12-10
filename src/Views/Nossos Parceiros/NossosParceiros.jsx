@@ -24,11 +24,13 @@ export const NossosParceiros = () => {
         return (
             <div class="NossosParceiros">
                 <div class="title">
+                    <div className="dupla">
                     Nossos parceiros
                 </div>
                 <p className="subtitle">
                     {text}
                 </p>
+                </div>
                 <div class= "logos">
                     {image.map((value) => (
                         <div className="fotos">

@@ -1,13 +1,15 @@
 import React from 'react';
 
 import './style.css';
-import Contato from './Views/Contato/Contato';
+import Contact from './Views/Contact/contact';
 import NossosParceiros from './Views/Nossos Parceiros/NossosParceiros';
+
 const App = () => {
   return (
     <div className="App">
+      
       <NossosParceiros/>
-      <Contato/>
+      
       
   </div>
 )
