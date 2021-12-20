@@ -4,11 +4,9 @@ import Slider from 'react-slick';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import {mainUrl} from '../../assets/index.ts'
-import './carousel.css'
+import './style.css'
 
-
-
-const Carousel = () => {
+export const Projetos = () => {
   const [slickPhotos, setSlickPhotos] = useState([{ url: '', caption: '', name: '' }]);
   
     const getInfos = async () => {
@@ -32,22 +30,22 @@ const Carousel = () => {
 
 
     return (
-        <div className='divCarousel' id='footer'>
-          <h1 id='h1c'>Projetos</h1>
-            <Slider {...settings}>
-              {slickPhotos?.map((value) => (
-                <div
-                  className='cardC'
-                  key={value.url}
-                >
-                  <img src={value.url} alt="" className='imgC'/>
-                  <h1 className='h1C'>{value.name}</h1>
-                  <p className='pC'>{value.caption}</p>
-                </div>
-              ))}
-            </Slider>
+        <div className='containerProjetos' id='containerProjetos'>
+          <h1 className='titleProjetos'>Projetos</h1>
+            <div className='carouselProjetos'>
+              <Slider {...settings}>
+                {slickPhotos?.map((value) => (
+                  <div
+                    className='cardC'
+                    key={value.url}
+                  >
+                    <img src={value.url} alt="" className='imgC'/>
+                    <h1 className='h1C'>{value.name}</h1>
+                    <p className='pC'>{value.caption}</p>
+                  </div>
+                ))}
+              </Slider>
+            </div>
         </div>
     );
   };
-
-export default Carousel;

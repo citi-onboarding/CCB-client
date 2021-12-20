@@ -1,11 +1,9 @@
-// import missaofoto from "./missaofoto.jpg"
 import axios from 'axios';
 import {mainUrl} from '../../assets';
 import React, { useEffect, useState } from 'react';
 import "./style.css";
 
 export const NossaMissao = () => {
-
     const [text, setText] = useState('');
     const [image, setImage] = useState('');
     
