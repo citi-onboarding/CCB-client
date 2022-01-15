@@ -7,7 +7,7 @@ export const NavBar = () => (
         <header className='spacing'>
             <img src={logo} alt='logo'/>
             <a class="home" href="#">Home</a>
-            <a class="quem_somos" href="#">Quem somos</a>
+            <a class="quem_somos" href="#containerQuemSomos">Quem somos</a>
             <a class="missao" href="#missaolink">Missão</a>
             <a class="projetos" href="#containerProjetos">Projetos</a>
             <a class="campanha" href="#campanhalink">Campanha</a>

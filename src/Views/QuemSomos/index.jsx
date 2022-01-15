@@ -9,18 +9,23 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
-export const Projetos = () => {
-  const [slickPhotos, setSlickPhotos] = useState([{ url: '', caption: '', name: '' }]);
+export const QuemSomos = () => {
+    const [slickPhotos, setSlickPhotos] = useState(null);
+    const [strapiText, setStrapiText] = useState(null);
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [controlledSwiper, setControlledSwiper] = useState(null);
   
+
     const getInfos = async () => {
 
-    const res = await axios.get(`${mainUrl}/carrossel-projetos`);
-    console.log(res)
-    const { images } = res.data[0];
-    setSlickPhotos(images);
+    const res = await axios.get(`${mainUrl}/quem-somos`);
+    console.log(res.data[0].Carrousel)
+    console.log(res.data[0])
+    const sliderImages = res.data[0].Carrousel;
+    const {subtitle } = res.data[0];
+    setSlickPhotos(sliderImages);
+    setStrapiText(subtitle)
   };
       useEffect(() => {
         getInfos();
@@ -67,8 +72,9 @@ export const Projetos = () => {
       }
     
       return (
-        <div className='containerProjetos' id='containerProjetos'>
-          <h1 className='titulo_projetos'>Projetos</h1>
+        <div className='containerQuemSomos' id='containerQuemSomos'>
+            <h1 className='titulo_quemsomos' >Quem Somos</h1>
+            <p className='texto_quemsomos'>{strapiText}</p>
         <React.Fragment style={{maxWidth: '80%'}}>
           <Swiper
             id="main"
@@ -87,18 +93,18 @@ export const Projetos = () => {
             onReachEnd={() => console.log('Swiper end reached')}
             
           >
-            {slickPhotos?.map((value) => (
-                <SwiperSlide style={{padding: '0 100px 10px'}}>
+            {slickPhotos?.map((value) => {
+                console.log(value, 'uma string')
+                return(
+                <SwiperSlide style={{padding: '75px 100px 100px'}}>
                   <div
-                    className='cardC'
+                    className='div_quemsomos'
                     key={value.url}
                   >
-                    <img src={value.url} alt="" className='imgC'/>
-                    <h1 className='h1C'>{value.name}</h1>
-                    <p className='pC'>{value.caption}</p>
+                    <img src={value.url} alt="" className='foto_quemsomos'/>
                   </div>
                 </SwiperSlide>
-              ))}
+              )})}
           </Swiper>
     
           {/* <Swiper
