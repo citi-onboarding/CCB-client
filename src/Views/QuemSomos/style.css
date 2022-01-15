@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.containerProjetos{
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+  padding-top: 130px;
+}
+
+.containerProjetos .swiper-container{
+  max-width: 80%;
+}
+.carouselProjetos {
+  margin-left: 170px;
+}
+.carouselProjetos .slick-slider {
+  width: 90%;
+  padding-bottom: 10px;
+  height: 500px;
+}
+.carouselProjetos .slick-list {
+  padding-bottom: 10px;
+}
+.slick-prev:before {
+  content: url('../../assets/right-arrow.svg')!important; 
+  content: url('../../assets/inside-left-arrow.svg')!important;
+}
+
+.slick-next:before {
+  content: url('../../assets/left-arrow.svg')!important;
+  content: url('../../assets/inside-right-arrow.svg')!important;
+}
+
+.cardC{
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 320px !important;
+  height: 480px !important;
+}
+
+.cardC img{
+  border-radius: 15px 15px 0 0;
+}
+
+.imgC{
+  width: 320px;
+  max-width: fit-content;
+  height: 200px;
+  min-width: 320px;
+}
+.pC {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 24px 20px 0;
+  color: #000000;
+}
+
+.titleProjetos {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  padding: 150px 0 50px; 
+}
+.h1C {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+text-align: center;
+margin-top: 40px;
+}
