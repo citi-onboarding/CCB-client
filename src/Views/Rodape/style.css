@@ -5,17 +5,16 @@
     box-sizing: border-box;
 }
 
-footer {
-    
-}
-
 .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
     height: 40px;
     color: rgb(0, 0, 0);
-    width: 100vw;
+    width: 100%;
     text-align: center;
-    padding-bottom: 25px;
-    flex-direction: row;
+    padding: 0 60px 0;
 }
 
 .footer_bottom p{
@@ -29,10 +28,6 @@ footer {
     font-weight: 200;
 }
 
-.made_citi {
-    padding-left: 700px;
-
-}
 
 .logo_citi_rodape {
     width: 30px;
