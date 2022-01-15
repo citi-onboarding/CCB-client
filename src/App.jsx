@@ -6,6 +6,7 @@ import './style.css';
 import {Banner, NavBar, NossaMissao, Projetos, Campanha, Rodape} from './Views';
 
 
+
 const App = () => {
   return (
     <div className="App">

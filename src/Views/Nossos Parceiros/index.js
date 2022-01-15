@@ -1,1 +1,2 @@
-import NossosParceiros from "./NossosParceiros";
+import {NossosParceiros} from "./NossosParceiros";
+export default NossosParceiros;
