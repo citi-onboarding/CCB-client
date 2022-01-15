@@ -72,7 +72,8 @@ export const QuemSomos = () => {
       }
     
       return (
-        <div className='containerProjetos' id='containerProjetos'>
+        <div className='containerQuemSomos' id='containerQuemSomos'>
+            <h1 className='titulo_quemsomos' >Quem Somos</h1>
             <p className='texto_quemsomos'>{strapiText}</p>
         <React.Fragment style={{maxWidth: '80%'}}>
           <Swiper

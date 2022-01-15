@@ -10,7 +10,13 @@ import {Banner, NavBar, NossaMissao, Projetos, Campanha, Rodape, QuemSomos} from
 const App = () => {
   return (
     <div className="App">
+      <NavBar/>
+      <Banner/>
       <QuemSomos/>
+      <NossaMissao/>
+      <Projetos/>
+      <Campanha/>
+      <Rodape/>
   </div>
 )
   }
