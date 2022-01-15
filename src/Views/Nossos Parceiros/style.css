@@ -24,6 +24,7 @@
     font-size: 18px;
     padding-top: 22px;
     padding-bottom: 58px;
+    text-align: center;
 }
 .logos{
     display: flex;
