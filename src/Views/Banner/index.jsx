@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import {ReactComponent as SetaSVG} from '../../assets/seta.svg'
 import {mainUrl} from '../../assets/index'
-import './styleBanner.css'
+import './style.css'
 
 export const Banner = () => {
   const [text, setText] = useState('');
