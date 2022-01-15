@@ -1,56 +1,35 @@
-*{
-    font-family: Montserrat;
-
-}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     font-family: Montserrat;
-
 }
-.container{
-    position: relative;
+.doacaoContainer{
     width: 100%;
     height: 100vh;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative;
     display: flex;
-    margin: 50px;
-    
-
 }
 
-.seta{
-    margin-left: 10px;
+.doacaoSeta{
+    padding-left: 10px;
 }
-.card{
-    background-color: rgba(0, 0, 0, 0.55);   
 
-}
-.card img{
+.doacaoCard{
+    background-color: rgba(0, 0, 0, 0.75);
     width: 100%;
-}
-
-.image {
-    opacity: 0.2;
-    position: absolute;
-    top: 0;
-    left: 0;
     height: 100vh;
-    width: 100%;
-    z-index: 0;
-    width: 100%;
-    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
-    
-}   
-
-.svg{
+.doacaoSvg{
     z-index: 1;
 }
 
-.container p, h1{
+.doacaoContainer p, h1{
     z-index: 1;
     color: #fff;
 }
@@ -58,7 +37,8 @@
         text-decoration: none;
         color: #FFFFFF;
     }
-.doacao{
+
+.doacaoButton{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,13 +48,20 @@
     width: 307px;
     height: 62px;
     margin-top: 25px;
-    z-index: 1;
+    z-index: 100;
     font-family: Montserrat;
     font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.doacaoButton:hover{
+    background: #ff8800;
+  }
+  
 .pix{
     text-align: center;
-    width: 254px;
     height: 27px;
     font-weight: bold;
     font-style: normal;
@@ -86,25 +73,22 @@
     font-size: 22px;
 
 }
-.title{
+.doacaoTitle{
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 39px;
-    text-align: center;
-    width: 319px;
     font-family: Montserrat;
     z-index: 1;
     height: 39px;
     margin-top: 20px;
-
+    padding-bottom: 50px;
 }
-.text{
+.doacaoText{
     font-weight: 500;
     font-size: 22px;
     text-align: center;
     color: #FFFFFF;
-    width: 686px;
     font-family: Montserrat;
     height: 54px;
     line-height: 32px;
