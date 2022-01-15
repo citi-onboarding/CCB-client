@@ -21,38 +21,22 @@
 
 }
 
-
+.containerQuemSomos{
+  min-height: 100vh;
+}
 .containerQuemSomos .swiper-container{
   max-width: 80%;
+  align-items: center;
 }
-.carouselQuemSomos {
-  margin-left: 170px;
-}
-.carouselQuemSomos .slick-list {
-  padding-bottom: 10px;
-}
-.slick-prev:before {
-  content: url('../../assets/right-arrow.svg')!important; 
-  content: url('../../assets/inside-left-arrow.svg')!important;
-}
-
-.slick-next:before {
-  content: url('../../assets/left-arrow.svg')!important;
-  content: url('../../assets/inside-right-arrow.svg')!important;
-}
-
 .div_quemsomos{
   background-color: #FFFFFF;
-
 }
-
 .div_quemsomos img{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
 
 .foto_quemsomos{
-  width: 320px;
   max-width: fit-content;
   height: 200px;
   min-width: 320px;

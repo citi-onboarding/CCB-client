@@ -96,7 +96,7 @@ export const QuemSomos = () => {
             {slickPhotos?.map((value) => {
                 console.log(value, 'uma string')
                 return(
-                <SwiperSlide style={{padding: '75px 100px 10px'}}>
+                <SwiperSlide style={{padding: '75px 100px 100px'}}>
                   <div
                     className='div_quemsomos'
                     key={value.url}
