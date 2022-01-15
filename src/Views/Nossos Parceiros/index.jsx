@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { mainUrl } from '../../assets/index.ts';
 import "./style.css"
+
 export const NossosParceiros = () => {
     const [text, setText] = useState('');
     const [image, setImage] = useState([{ url: ''}]);
@@ -23,14 +24,11 @@ export const NossosParceiros = () => {
 
         return (
             <div class="NossosParceiros">
-                <div class="title">
-                    <div className="dupla">
-                    Nossos parceiros
+                <div>
+                    <h1 className="parceirosTitle">Nossos Parceiros</h1>
+                    <p className="parceirosSubtitle"> {text} </p>
                 </div>
-                <p className="subtitle">
-                    {text}
-                </p>
-                </div>
+                
                 <div class= "logos">
                     {image.map((value) => (
                         <div className="fotos">
@@ -38,9 +36,8 @@ export const NossosParceiros = () => {
                         </div>
                     ) )}
                 </div>
+
             </div>
         )
     }
-  
-  export default NossosParceiros;
-  
+   
