@@ -9,7 +9,7 @@ export const Rodape = () => {
                 
                 <div class="footer_bottom">
                     <p>Copyright &copy; 2021 CCB social</p>
-                    <p class="made_citi">Made with &lt;/&gt; and ❤ by <span>CITi</span></p>
+                    <p>Made with &lt;/&gt; and ❤ by <b>CITi</b></p>
                 </div>
             </footer>
         </div>
