@@ -68,7 +68,7 @@ export const Projetos = () => {
     
       return (
         <div className='containerProjetos' id='containerProjetos'>
-          <h1 id='h1c'>Projetos</h1>
+          <h1 className='titulo_projetos'>Projetos</h1>
         <React.Fragment style={{maxWidth: '80%'}}>
           <Swiper
             id="main"
