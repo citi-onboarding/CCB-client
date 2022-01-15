@@ -29,7 +29,7 @@
     z-index: 1;
 }
 
-.doacaoContainer p, h1{
+.doacaoContainer p h1{
     z-index: 1;
     color: #fff;
 }
