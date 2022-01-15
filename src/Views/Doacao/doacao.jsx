@@ -1,4 +1,3 @@
-import foto from '../../assets/foto.jpeg'
 import {ReactComponent as IconSVG} from '../../assets/a.svg'
 import './style.css'
 import {mainUrl} from '../../assets/index'

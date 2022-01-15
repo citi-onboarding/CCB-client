@@ -1,0 +1,78 @@
+.containerBanner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.infosBanner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 100px 0;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 116, 225, 0.8) 10%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.tituloBanner {
+  font-weight: bold;
+  font-size: 40px;
+  max-width: 50%;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtituloBanner {
+  font-weight: bold;
+  font-size: 16px;
+  max-width: 50%;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 40px 0 10px
+}
+
+.setaBanner {
+  margin-left: 10px;
+}
+
+.linkBanner {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.doacaoBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fdb600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 152px;
+  height: 62px;
+  margin-top: 25px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.doacaoBanner:hover {
+  background: #ff8800;
+}

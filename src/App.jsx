@@ -1,26 +1,20 @@
 import React from 'react';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper';
+import 'swiper/swiper-bundle.css'
 import './style.css';
-import Contact from './Views/Contact/contact';
-import NossosParceiros from './Views/Nossos Parceiros/NossosParceiros';
-import Carousel from './Views/Projetos/carousel';
-import Campanha from './Views/Campanha';
-import Donate from './Views/doacao/doacao';
-import NossaMissao from './Views/NossaMissao/index'
-import NavBar from './Views/NavBar';
-import Rodape from './Views/Rodape';
+import {Banner, NavBar, NossaMissao, Projetos, Campanha, Rodape} from './Views';
+
 
 
 const App = () => {
   return (
     <div className="App">
       <NavBar/>
+      <Banner/>
       <NossaMissao/>
-      <Carousel/>
-      <Campanha/>  
-      <NossosParceiros/>
-      <Donate/>      
-      <Contact/>
+      <Projetos/>
+      <Campanha/>
       <Rodape/>
   </div>
 )

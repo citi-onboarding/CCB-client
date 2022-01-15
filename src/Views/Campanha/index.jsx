@@ -35,4 +35,3 @@ export const Campanha = () => {
       
     )
 }
-export default Campanha;
