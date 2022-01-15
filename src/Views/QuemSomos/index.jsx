@@ -73,8 +73,7 @@ export const QuemSomos = () => {
     
       return (
         <div className='containerProjetos' id='containerProjetos'>
-            <p>{strapiText}</p>
-          <h1 id='h1c'>Projetos</h1>
+            <p className='texto_quemsomos'>{strapiText}</p>
         <React.Fragment style={{maxWidth: '80%'}}>
           <Swiper
             id="main"
@@ -96,12 +95,12 @@ export const QuemSomos = () => {
             {slickPhotos?.map((value) => {
                 console.log(value, 'uma string')
                 return(
-                <SwiperSlide style={{padding: '0 100px 10px'}}>
+                <SwiperSlide style={{padding: '75px 100px 10px'}}>
                   <div
-                    className='cardC'
+                    className='div_quemsomos'
                     key={value.url}
                   >
-                    <img src={value.url} alt="" className='imgC'/>
+                    <img src={value.url} alt="" className='foto_quemsomos'/>
                   </div>
                 </SwiperSlide>
               )})}

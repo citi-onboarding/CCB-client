@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.texto_quemsomos{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    color: #000000;
+    height: 75px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 75px;
 
-.containerProjetos{
-  width: 100%;
-  height: 100vh;
-  background-color: #FFFFFF;
-  padding-top: 130px;
 }
+
 
 .containerProjetos .swiper-container{
   max-width: 80%;
 }
 .carouselProjetos {
   margin-left: 170px;
-}
-.carouselProjetos .slick-slider {
-  width: 90%;
-  padding-bottom: 10px;
-  height: 500px;
 }
 .carouselProjetos .slick-list {
   padding-bottom: 10px;
@@ -31,49 +33,20 @@
   content: url('../../assets/inside-right-arrow.svg')!important;
 }
 
-.cardC{
+.div_quemsomos{
   background-color: #FFFFFF;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 320px !important;
-  height: 480px !important;
+
 }
 
-.cardC img{
-  border-radius: 15px 15px 0 0;
+.div_quemsomos img{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 
-.imgC{
+.foto_quemsomos{
   width: 320px;
   max-width: fit-content;
   height: 200px;
   min-width: 320px;
 }
-.pC {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  margin: 24px 20px 0;
-  color: #000000;
-}
 
-.titleProjetos {
-  font-weight: 600;
-  font-size: 36px;
-  text-align: center;
-  color: #000000;
-  padding: 150px 0 50px; 
-}
-.h1C {
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
-text-align: center;
-margin-top: 40px;
-}
