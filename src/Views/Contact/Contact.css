@@ -1,33 +1,69 @@
-.Form[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    flex-direction: column;
-    resize: none;
+.Form {
+  width: 100%;
+  height: 100vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
     
+  }
+
+.Form input,textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    outline: none;
+  }
+
+.Form input::placeholder {
+    color: white;
+  }
+
+  
+
+.Form textarea::placeholder {
+    color: white;
   }
   
 .form-buttom[type=submit] {
-    width: fit-content;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   }
+.contact {
+  background-color: #0059AE;
+  column-count: 2;
+  height: 749px;
+  width: 100% ;
+
   
-  .form-buttom[type=submit]:hover {
-    background-color: #45a049;
+    
+    
   }
-  
-  .contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+.title {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
   }
+.info {
+  color: white;
+  padding: auto;
+}
+.insta-button {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}

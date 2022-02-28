@@ -3,6 +3,7 @@ import { Banner } from './Banner';
 import { NossaMissao } from './NossaMissao'
 import { Projetos } from './Projetos';
 import { Campanha } from './Campanha';
+import { Contact } from './Contact';
 import { Rodape } from './Rodape';
 
-export {Banner, NavBar, NossaMissao, Projetos, Campanha, Rodape}
+export {Banner, NavBar, NossaMissao, Projetos, Campanha, Contact, Rodape}
