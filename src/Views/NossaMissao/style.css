@@ -1,64 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    margin: 0px;
-}
-
-.containerMissao {  
-    height: 100vh;
-    background-color:#F4F4F4;
-    padding-top: 117px;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    margin-top: 500vh;
-    
+.containerMissao {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0;
+  background-color: #F4F4F4;
 }
 
 .infosMissao {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .tituloMissao {
-    
-    /*argin: 5% 62% 1% 10%;*/
-    
-    
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    margin: 50px;
-    
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 32px;
 }
 
 .subtituloMissao {
-    
-    
-    text-align: left;
-    padding-right: 5%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    color: #000000;
-    margin-left: 50px;
-    
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
 }
 
 .imgMissao {
-    
-    margin: 5% 5% 1% 5%;
-    width:40%;
-    border-radius: 10px;
-    
+  width: 40%;
+  border-radius: 10px;
 }
